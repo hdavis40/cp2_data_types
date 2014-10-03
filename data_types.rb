@@ -1,11 +1,11 @@
-kaykay = { :age => 21, :height => "5'6\"" }
+kaykay = { :age => 21, :height => "6'4\"" }
 
-def say_kaykay
-  "KayKay"
+def say_harry
+  "harry"
 end
 
 space = " "
 
-puts say_kaykay + " is" + space + kaykay[:age].to_s + "."
+puts say_harry + " is" + space + harry[:age].to_s + "."
 
-puts say_kaykay + " is" + space + kaykay[:height] + "."
+puts say_harry + " is" + space + harry[:height] + "."
